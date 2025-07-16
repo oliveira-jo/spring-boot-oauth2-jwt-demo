@@ -16,7 +16,7 @@ public class Role implements GrantedAuthority {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
-  // name, roleName
+  // Name of user profile: name, roleName
   private String authority;
 
   public Role() {
